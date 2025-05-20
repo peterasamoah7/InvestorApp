@@ -56,7 +56,7 @@ Alternatively you can run `Update-Database` in Package Manager Console to run mi
 
 ### 1. Open Frontend in Visual Studio Code
 
-- Go to `/client`.
+- Go to `/frontend`.
 - Open the folder using Visual Studio code.
 
 ### 2. Configure Backend
