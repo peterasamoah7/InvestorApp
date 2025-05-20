@@ -34,7 +34,6 @@ In `appsettings.json`:
 "ConnectionStrings": {
   "SqlConnection": "<use db connection or use default provided>",
 },
-"ClientHost":"<use client host url or use default provided>"
 ```
 ### 3. Configure Database
 
@@ -60,8 +59,7 @@ Alternatively you can run `Update-Database` in Package Manager Console to run mi
 - Open the folder using Visual Studio code.
 
 ### 2. Configure Backend
-
-In `.env`: update API_BASE_URL to the base url for the backend
+Create a `.env` file and update API_BASE_URL to the base url for the backend
 
 ```json
 API_BASE_URL=
@@ -70,3 +68,10 @@ API_BASE_URL=
 
 - Run `npm istall`
 - Run `npm run dev`
+
+## Troubleshooting
+
+- Ensure the `.env` file exists.
+- Ensure the `.env` file contains the correct value for `API_BASE_URL`.
+- Open the folder using Visual Studio code.
+
