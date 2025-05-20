@@ -1,0 +1,77 @@
+ body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #343a40;
+  margin-bottom: 20px;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+}
+
+.navbar .nav-link.active {
+  color:  #ffffff;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: left; 
+  font-size: 2rem; 
+  margin-bottom: 20px;
+}
+
+.profile-link {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+.profile-link:hover {
+  text-decoration: underline; 
+}
+
+.pagination {
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+.card-link {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.card {
+  transition: background-color 0.3s; 
+}
+
+.stat-card:hover {
+  background-color: #e9ecef; 
+}
+
+.stat-card {
+  width: 150px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.05);
+  margin: 0.5rem;
+  font-size: 0.875rem;
+}
+.stat-card h6 {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+.stat-card p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #555;
+}
